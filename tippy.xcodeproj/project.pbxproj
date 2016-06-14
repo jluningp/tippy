@@ -14,6 +14,7 @@
 		DDA05E0A1D109CD2008CD71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA05E081D109CD2008CD71A /* LaunchScreen.storyboard */; };
 		DDA05E151D109CD2008CD71A /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA05E141D109CD2008CD71A /* tippyTests.swift */; };
 		DDA05E201D109CD2008CD71A /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA05E1F1D109CD2008CD71A /* tippyUITests.swift */; };
+		DDA05E301D10B6B8008CD71A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA05E2F1D10B6B8008CD71A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DDA05E1B1D109CD2008CD71A /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA05E1F1D109CD2008CD71A /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		DDA05E211D109CD2008CD71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA05E2F1D10B6B8008CD71A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		DDA05DFE1D109CD2008CD71A /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				DDA05E2F1D10B6B8008CD71A /* SettingsViewController.swift */,
 				DDA05DFF1D109CD2008CD71A /* AppDelegate.swift */,
 				DDA05E011D109CD2008CD71A /* ViewController.swift */,
 				DDA05E031D109CD2008CD71A /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				DDA05E021D109CD2008CD71A /* ViewController.swift in Sources */,
 				DDA05E001D109CD2008CD71A /* AppDelegate.swift in Sources */,
+				DDA05E301D10B6B8008CD71A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
